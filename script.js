@@ -33,8 +33,8 @@ class ElBook extends Book{
         this.format = format;
     }
     toArray(){
-      const newArray = [this.isbn, this.author, this.released,
-        this.name, this.description, this.pages, this.format];
+      const newArray = [];
+      newArray.push(book2);
       console.log(newArray);
     }
     static palyginimas(book1, book3){
