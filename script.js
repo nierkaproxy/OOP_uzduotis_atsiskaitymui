@@ -38,8 +38,9 @@ class ElBook extends Book{
       console.log(newArray);
     }
     static palyginimas(book1, book3){
-      const masyvasNaujas = [book1, book3];
-      console.log(masyvasNaujas);
+       const naujasMasyvas = [];
+       naujasMasyvas.push(book1, book3)
+       console.log(naujasMasyvas);
     }
 }
 
@@ -47,5 +48,5 @@ const book4 = new ElBook('IT-54321', 'James Clear', 2018, 'Atomic habits', 'An a
 306, 'Hardcover');
 
 book4.toArray();
-ElBook.palyginimas();
+ElBook.palyginimas(book1, book3);
 
